@@ -1,0 +1,176 @@
+:root{
+    --primary-color: white;
+    --text-color: rgba(23, 22, 22, 0.635);
+
+}
+
+@media screen and (max-width: 700px) {
+    .row, .navbar {   
+      flex-direction: column;
+    }
+  }
+
+  * {
+    box-sizing: border-box;
+    /* -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; */
+  }
+
+
+
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1;
+    overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; 
+}
+
+
+body{
+    background-color: rgba(190, 199, 254, 0.902);
+    color: rgba(23, 22, 22, 0.635);
+    padding: 3rem;
+    display: block;
+        /* flex-wrap: wrap; */
+    max-width: 800px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+b {
+    color:whitesmoke;
+}
+
+
+.container{
+    background-color: rgba(194, 118, 233, 0.162);
+    padding: 2rem 2rem 1rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 100%;               
+    background-color:#a96bf1;
+    height: 1px;
+  }
+
+#name{
+flex-grow: 2;
+padding-left: 1rem;
+line-height: .2;
+align-self: center;
+}
+
+#info {
+text-align: right;
+flex-grow: 1;
+align-self: center;
+}
+
+#biography {
+    font-size: 14px;
+    padding-top: 0px;
+}
+
+/* #downloadResume{
+
+} */
+
+
+
+h4 {
+    background-color: rgba(178, 136, 254, 0.621);
+    padding: 6px;
+    font-size: 14px;
+    font-variant: small-caps;
+    color: white;
+}
+
+h5{
+font-size: 16px;
+margin-bottom: 0;
+margin-top: 0;
+}
+
+h6{margin: 0 auto;
+font-size: 14px;
+margin-left: 3rem;
+font-style: italic;
+line-height: 2;}
+
+.prof_exp_body1{
+    padding-bottom: 1rem;
+}
+
+.prof_exp_body2{
+    padding-top: 1rem;
+
+}
+
+.timeframe{ float: right; font-size: 15px; line-height: 22px;}
+
+.container2{
+/* position: relative;
+display: block;  */
+display: flex;
+flex-wrap: wrap;
+background-color: rgba(194, 118, 233, 0.162);
+/* width: 100%;
+margin: 0 auto; */
+}
+
+.resume_wrapper{
+    /* padding: 0rem 0rem 2rem 2rem; */
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; */
+    /* height: 400px;
+    width: 100%; */
+    /* padding-top: 5px; overflow: hidden; */
+    flex: 75%;
+    padding: 20px;
+}
+
+.resume_sidebar{
+    /* padding: 0rem 2rem 0rem 0rem; */
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; */
+    /* padding-top: 1px; float: right; width: 190px; margin-left: 60px; */
+    flex: 25%;
+    padding: 20px;
+}
+
+
+p>#prof_exp{
+/* width: 70%; */
+}
+
+#education{
+
+}
+
+#references{
+
+}
+
+#skills{
+    /* padding-top: 1px; float: right; width: 190px; margin-left: 60px; */
+}
+
+
