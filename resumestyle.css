@@ -156,21 +156,13 @@ margin: 0 auto; */
     padding: 20px;
 }
 
+.program {font-size: 14px; line-height: 15px;}
 
-p>#prof_exp{
-/* width: 70%; */
-}
+.progressbar { background-color: #b193da5a; display: block; height: 15px; width: 100%;margin-top: 2px;
+border: 1px solid black;}
 
-#education{
+.progress { display: block; height: 15px; overflow: hidden; position: relative; text-align: right; 
+font-style: italic;
+width: 100%;}
 
-}
-
-#references{
-
-}
-
-#skills{
-    /* padding-top: 1px; float: right; width: 190px; margin-left: 60px; */
-}
-
-
+.skill1{margin-bottom: 1rem;}
